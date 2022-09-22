@@ -1,5 +1,5 @@
 ## Production mix model
-In this series of articles we build the "Production mix" model in various Python Pyomo libraries.
+In this series of articles we build the "Production mix" optimization model using various Python Pyomo libraries.
 
 In total, we build eleven versions of the model – all of which return the same solution, but using different libraries, solvers, and Python programming techniques.
 
