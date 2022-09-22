@@ -10,6 +10,4 @@ Blog topics include:
 - Updates to relevant software.
 - Anything else relating to optimization modelling that grabs our attention.
 
-### Purpose of this repository
-
 The code for our optimization models, written in Excel or Python, is available here.
