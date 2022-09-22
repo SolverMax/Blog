@@ -1,5 +1,6 @@
 ## Production mix - Model 6, Pyomo
 In this article we continue the Python Production mix series, using the Pyomo library.
+
 Specifically, we build Model 6, which changes Model 5 to:
 - Declare the model as a Pyomo pyo.AbstractModel, rather than as a pyo.ConcreteModel.
 - Read the data from a dat file rather than a json file.
