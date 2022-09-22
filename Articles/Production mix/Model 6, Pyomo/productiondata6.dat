@@ -1,0 +1,13 @@
+param: Name  := 'Boutique pottery shop - Model 6';
+param: Hours := 250;
+param: kg    := 500;
+param: SalesLimit := 0;
+param: VarInitial := 0;
+param: VarLBounds := 0;
+param: VarUBounds := 100;
+param: Engine := "cbc";
+param: TimeLimit := 60;
+
+param:  Products: People  Materials  Sales  Margin  :=
+        Discs     12.50   18.00      -2      80.00
+        Orbs      10.00   30.00       1     200.00;
