@@ -11,5 +11,7 @@ In Part 1 we describe a technique for converting a logical implication into an e
 Part 2 describes an alternative representation of this technique, specifically designed to improve the proficiency of students learning to formulate models.
 
 Blog articles:
+
 [Logic conditions as constraints - Part 1](https://www.solvermax.com/blog/logic-conditions-as-constraints-part-1)
+
 [Logic conditions as constraints - Part 2](https://www.solvermax.com/blog/logic-conditions-as-constraints-part-2)
