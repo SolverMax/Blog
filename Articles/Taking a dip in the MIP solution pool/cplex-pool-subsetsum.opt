@@ -1,0 +1,5 @@
+set timelimit 600
+set mip pool intensity 4
+set mip pool capacity 20
+set mip pool replace 1
+set mip pool absgap 0.015
