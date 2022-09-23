@@ -5,6 +5,6 @@ In total, we build eleven versions of the model – all of which return the same
 
 Our first six models are built using Pyomo, starting with a simple "concrete" model, progressing through a variety of increasingly sophisticated concrete models, ending with an "abstract" model. The range of Pyomo models illustrates some of the many techniques that can be used to build optimization models in Python, even when using the same library.
 
-We then build the model in each of the five other libraries: PuLP, OR Tools, Gekko, CVXPY, and SciPy.
+We then build the model in each of five other libraries: PuLP, OR Tools, Gekko, CVXPY, and SciPy.
 
 In addition to using different libraries to build the models, some libraries have multiple solvers available. For each model, we'll choose an appropriate solver, depending on which solvers are available to the library we're using.
