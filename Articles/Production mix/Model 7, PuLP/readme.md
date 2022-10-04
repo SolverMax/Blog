@@ -1,4 +1,4 @@
-Production mix - Model 7, PuLP
+## Production mix - Model 7, PuLP
 
 In this article we continue the Python Production mix series, using the PuLP library.
 
