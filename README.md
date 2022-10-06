@@ -1,4 +1,4 @@
-## Blog
+# Blog
 
 Our blog describes a variety of optimization models, written in either Excel or Python.
 
