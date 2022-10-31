@@ -4,7 +4,7 @@ In this article we continue the Python Production mix series, using the PuLP lib
 
 Specifically, we build Model 7, which:
 
-- Builds the mode using the PuLP library.
+- Builds the model using the PuLP library.
 - Reads the data from a json file.
 
 There is a close similarity between this PuLP model and our Pyomo models. Although the syntax of the two libraries is somewhat different, the general structure of the model definitions and solution process is familiar. This isn't surprising, as both PuLP and Pyomo are COIN-OR projects.
