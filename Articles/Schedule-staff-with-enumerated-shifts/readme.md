@@ -8,4 +8,5 @@ In these blog articles we implement a staff scheduling model using two tools:
 - Python, using the CBC solver via Pyomo.
 
 Blog article, using OpenSolver: https://www.solvermax.com/blog/schedule-staff-with-enumerated-shifts-opensolver
+
 Blog article, using Pyomo: https://www.solvermax.com/blog/schedule-staff-with-enumerated-shifts-pyomo
