@@ -4,7 +4,7 @@ def defineModel1():   # Base case model, with additive Professor and Student pre
     model = ConcreteModel()
     model.i = RangeSet(Nprof)
     model.j = RangeSet(Nstudent)
-    
+
     model.Coef = Param(model.i, model.j, initialize = 0, mutable = True)
     for (i,j) in P:
         model.Coef[i, j] = P[i, j] + Q[i, j]
