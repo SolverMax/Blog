@@ -1,5 +1,5 @@
 ## Refactor Python models into modules
-In this article we explore two aspects of working with multiple variations of a model:
+In this article we explore two aspects of working with multiple variations of an optimization model:
 - Modularization. We refactor an existing model into modules, consisting of functions located in separate files.
 - Adding models. We extend the existing model by adding variations that make efficient use of the modular structure.
 
