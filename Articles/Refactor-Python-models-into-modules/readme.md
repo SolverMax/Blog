@@ -5,4 +5,4 @@ In this article we explore two aspects of working with multiple variations of a 
 
 Along the way, we look at shallow vs deep copying in Python. This is a topic that often causes subtle bugs, so it is important to understand when working with variations of a model.
 
-Blog article: [https://www.solvermax.com/blog/project-crashing](https://www.solvermax.com/blog/refactor-python-models-into-modules)
+Blog article: [https://www.solvermax.com/blog/refactor-python-models-into-modules](https://www.solvermax.com/blog/refactor-python-models-into-modules)
