@@ -1,0 +1,15 @@
+{
+    "Name": "Boutique pottery shop - Julia/JuMP",
+    "Hours": 250,
+    "kg": 500,
+    "SalesLimit": 0,
+    "Coefficients": {
+        "Discs": {"People":  12.50, "Materials":  18.00, "Sales":   -2.00, "Margin":  80.00},
+        "Orbs":  {"People":  10.00, "Materials":  30.00, "Sales":    1.00, "Margin": 200.00}
+    },
+    "VarInitial": 0,
+    "VarLBounds": 0,
+    "VarUBounds": 100,
+    "Engine": "HiGHS",
+    "TimeLimit": 60    
+}
