@@ -9,4 +9,4 @@ Specifically, we model the efficiency of:
 
 The model is built in Python, using the OR-Tools and networkx libraries..
 
-Blog article: https://www.solvermax.com/blog/warehouse-optimization-model-design
+First blog article in the series: https://www.solvermax.com/blog/warehouse-optimization-model-design
