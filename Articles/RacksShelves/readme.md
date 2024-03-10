@@ -5,7 +5,7 @@ Along the way, we:
 
 - Formulate a non-linear model of the situation.
 - Compare several solvers, to see how they perform.
-- Linearize our model to, hopefully, make it easier to solve.-
+- Linearize our model to, hopefully, make it easier to solve.
 - Disaggregate our model to make some variables exogenous, then iterate over an enumeration of the exogenous variables.
 - Demonstrate use of Pyomo's last() and next() functions, which enable us to work with elements of ordered sets.
 - Turn off a constraint using Pyomo's deactivate() function.
