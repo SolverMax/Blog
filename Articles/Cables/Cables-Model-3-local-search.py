@@ -13,6 +13,7 @@ from data.data_08 import cable_struct   # Data file in the data folder, in Pytho
 
 # Constants
 MAX_TIME = 60   # Maximum overall run time, seconds
+MAX_TIME_BUFFER = 1   # Small buffer to allow final iteration of results to print, seconds
 UPDATE_INTERVAL = 5   # Time interval for printing current best solution, seconds
 RESTART_INTERVAL = 10   # Time interval for restarting each process, seconds
 RESTART_PROBABILITY = 0.5  # Probability of a thread restarting with a random order at each restart interval
@@ -44,7 +45,7 @@ def local_search_chunk(cable_struct, num_devices, start_time, shared_dict, max_t
     last_restart = time.time()
     local_count = 0
     
-    while time.time() - start_time < max_time:
+    while time.time() - start_time < max_time + MAX_TIME_BUFFER:
         new_order = copy.deepcopy(order[:])
         i, j = random.sample(range(num_devices), 2)
         new_order[i], new_order[j] = new_order[j], new_order[i]
@@ -81,7 +82,7 @@ def local_search_chunk(cable_struct, num_devices, start_time, shared_dict, max_t
                 order = copy.deepcopy(shared_dict['best_case'])
             last_restart = current_time
         
-        if (current_time - start_time) >= max_time:   # Stop search if reached maximum overall run time
+        if (current_time - start_time) >= max_time + MAX_TIME_BUFFER:   # Stop search if reached maximum overall run time
             break
     return min_length, order
 
