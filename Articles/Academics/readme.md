@@ -3,6 +3,6 @@ Academic research papers can be a valuable source of material for creating and i
 
 In this article:
 - Firstly, we briefly look at some reasons why academics might be reluctant to publish their data and code.
-- Then we replicate, modify, and explore a published model that has been done well, with the data and program code publicly available.
+- Then we replicate, modify, and explore a [published model](https://github.com/AustinLBuchanan/Districting-Examples-2020/tree/main) that has been done well, with the data and program code publicly available.
 
 Blog article: [Academics, please publish your data and code](https://www.solvermax.com/blog/academics-please-publish-your-data-and-code)
