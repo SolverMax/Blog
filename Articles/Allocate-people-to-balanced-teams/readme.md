@@ -5,4 +5,4 @@ In this article we build and analyze a model that allocates 32 people to four te
 
 The model is built in Excel and solved using either Solver or OpenSolver.
 
-Blog article: [Allocate people to balanced teams](https://www.solvermax.com/blog/allocate-people-to-balanced-teams)
+Blog article for Model 1: [Efficient jury empanelling: Respecting people's time](https://www.solvermax.com/blog/allocate-people-to-balanced-teams)
