@@ -5,4 +5,4 @@ We have two simulation models:
 - Model 1. A pure Python model of the process.
 - Model 2. Using the SimPy library.
 
-Blog article: [Efficient jury empanelling: Respecting people's time](https://www.solvermax.com/blog/efficient-jury-empanelling-respecting-peoples-time)
+Blog article for Model 1: [Efficient jury empanelling: Respecting people's time](https://www.solvermax.com/blog/efficient-jury-empanelling-respecting-peoples-time)
